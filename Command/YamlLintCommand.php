@@ -46,7 +46,7 @@ class YamlLintCommand extends BaseLintCommand
     /**
      * {@inheritdoc}
      */
-    protected function configure()
+    protected function configure(): void
     {
         parent::configure();
 
